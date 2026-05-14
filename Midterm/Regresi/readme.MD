@@ -38,7 +38,9 @@ Tahapan yang dilakukan dalam proyek ini meliputi:
 - Model saving
 
 Dataset yang digunakan:
-- `midterm-regresi-dataset.csv`\n
+- `midterm-regresi-dataset.csv`
+
+
 Link Dataset: **https://drive.google.com/file/d/13hoYuDDKTOZ4OUTZrdlaKG-OSIK_lnbU/view?usp=sharing**
 
 ---
