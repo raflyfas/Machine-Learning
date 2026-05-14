@@ -150,3 +150,44 @@ Model berhasil mencapai:
 - R² sebesar 0.393
 
 Hasil ini menunjukkan bahwa model mampu mempelajari pola dari audio features dengan cukup baik untuk melakukan prediksi release year lagu.
+
+## How to Run the Project
+
+### 1. Clone Repository
+
+```bash
+git clone <repository-link>
+cd UTS-Regresi
+```
+
+---
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+---
+
+### 3. Activate Virtual Environment
+
+#### Windows (PowerShell)
+
+```bash
+venv\Scripts\activate
+```
+
+#### Windows (CMD)
+
+```bash
+venv\Scripts\activate.bat
+```
+
+---
+
+### 4. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
