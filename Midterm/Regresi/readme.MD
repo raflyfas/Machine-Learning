@@ -125,7 +125,7 @@ Komponen yang disimpan:
 
 ```text
 ├── UTS_ML_Regresi.ipynb
-├── midterm-regresi-dataset.csv
+├── requirements.txt
 ├── savemodel/
 │   ├── release_year_xgb_model_bundle.pkl
 │   ├── best_params.json
@@ -153,7 +153,7 @@ Hasil ini menunjukkan bahwa model mampu mempelajari pola dari audio features den
 
 ## How to Run the Project
 
-### 1. Clone Repository
+### Clone Repository
 
 ```bash
 git clone <repository-link>
@@ -162,7 +162,7 @@ cd UTS-Regresi
 
 ---
 
-### 2. Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -170,7 +170,7 @@ python -m venv venv
 
 ---
 
-### 3. Activate Virtual Environment
+### Activate Virtual Environment
 
 #### Windows (PowerShell)
 
@@ -186,7 +186,7 @@ venv\Scripts\activate.bat
 
 ---
 
-### 4. Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
