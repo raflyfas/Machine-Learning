@@ -67,6 +67,10 @@ Karena menghasilkan nilai Silhouette Score tertinggi dibandingkan jumlah cluster
 ├── Midterm_Clustering.ipynb
 ├── clusteringmidterm.csv
 └── README.md
+```
+
+---
+
 
 # 6. Guide to Run Project
 
