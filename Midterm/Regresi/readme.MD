@@ -38,7 +38,7 @@ Tahapan yang dilakukan dalam proyek ini meliputi:
 - Model saving
 
 Dataset yang digunakan:
-- `midterm-regresi-dataset.csv`
+- `midterm-regresi-dataset.csv`\n
 Link Dataset: **https://drive.google.com/file/d/13hoYuDDKTOZ4OUTZrdlaKG-OSIK_lnbU/view?usp=sharing**
 
 ---
@@ -63,11 +63,11 @@ Metode evaluasi yang digunakan:
 
 ### Hasil Evaluasi Model
 
-| Stage | RMSE | MAE | R² |
-|---|---|---|---|
-| RandomForestRegressor | 8.91 | 6.22 | 0.33 |
-| XGBoost | 8.75 | 6.12 | 0.356 |
-| XGBoost + Optuna Tuning | 8.50 | 5.91 | 0.393 |
+| Stage | MSE | RMSE | MAE | R² |
+|---|---|---|---|---|
+| RandomForestRegressor | 79.40 | 8.91 | 6.22 | 0.33 |
+| XGBoost | 76.61 | 8.75 | 6.12 | 0.356 |
+| XGBoost + Optuna Tuning | 72.28 | 8.50 | 5.91 | 0.393 |
 
 Hasil evaluasi menunjukkan bahwa model XGBoost yang telah dioptimasi menggunakan Optuna menghasilkan performa terbaik dibandingkan model baseline sebelumnya.
 
@@ -110,7 +110,7 @@ MLflow digunakan untuk:
 Model hasil training disimpan dalam format:
 - `.pkl`
 - `.json`
-Link savemodel-tuned karena file terlalu besar berada di file 'release_year_xgb_model_bundle.txt' atau https://drive.google.com/file/d/1isCcoUFoRtSE717DibrkhvkQhgi4F-Gl/view?usp=sharing
+Link savemodel-tuned karena file terlalu besar berada di file `release_year_xgb_model_bundle.txt` atau https://drive.google.com/file/d/1isCcoUFoRtSE717DibrkhvkQhgi4F-Gl/view?usp=sharing
 
 Komponen yang disimpan:
 - trained model
@@ -144,6 +144,7 @@ Komponen yang disimpan:
 Berdasarkan hasil eksperimen yang dilakukan, model XGBoost Regressor dengan hyperparameter tuning menggunakan Optuna mampu memberikan performa terbaik dalam memprediksi tahun rilis lagu berdasarkan audio features numerik.
 
 Model berhasil mencapai:
+- MSE sebesar 72.28
 - RMSE sebesar 8.50
 - MAE sebesar 5.91
 - R² sebesar 0.393
