@@ -1,4 +1,4 @@
-# UTS 3 Machine Learning - Clustering
+# UTS Machine Learning - Clustering
 
 ## Data Diri
 
