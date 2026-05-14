@@ -123,7 +123,6 @@ MLflow digunakan untuk melakukan experiment tracking selama proses training mode
 
 ```text
 ├── Fraud_Detection.ipynb
-├── fraud_detection_model.cbm
 └── README.md
 ```
 
