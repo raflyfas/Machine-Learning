@@ -124,17 +124,20 @@ Komponen yang disimpan:
 ## 8. Repository Structure / Notebook Navigation
 
 ```text
-├── UTS_ML_Regresi.ipynb
-├── requirements.txt
-├── savemodel/
-│   ├── release_year_xgb_model_bundle.pkl
-│   ├── best_params.json
-│   └── test_metrics.json
-├── savemodel-tuned/
-│   ├── release_year_xgb_model_bundle.txt
-│   ├── best_params.json
-│   └── test_metrics.json
-└── README.md
+UTS_ML_Regresi.ipynb
+requirements.txt
+
+savemodel/
+├── release_year_xgb_model_bundle.pkl
+├── best_params.json
+└── test_metrics.json
+
+savemodel-tuned/
+├── release_year_xgb_model_bundle.txt
+├── best_params.json
+└── test_metrics.json
+
+README.md
 ```
 
 ---
