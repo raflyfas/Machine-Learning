@@ -67,3 +67,13 @@ Karena menghasilkan nilai Silhouette Score tertinggi dibandingkan jumlah cluster
 ├── Midterm_Clustering.ipynb
 ├── clusteringmidterm.csv
 └── README.md
+
+# 6. Guide to Run Project
+
+Project ini dapat dijalankan menggunakan Google Colab ataupun Jupyter Notebook.
+
+Sebelum menjalankan notebook, install terlebih dahulu library yang dibutuhkan:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
