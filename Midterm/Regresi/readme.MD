@@ -1,4 +1,4 @@
-# UTS 3 Machine Learning - Regresi
+# UTS Machine Learning - Regresi
 
 ## Data Diri
 
