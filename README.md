@@ -1,6 +1,6 @@
-# Machine Learning Midterm Projects
+# Machine Learning Projects
 
-Repository ini berisi kumpulan project Midterm Machine Learning yang mencakup tiga pendekatan utama dalam machine learning, yaitu:
+Repository ini berisi kumpulan project Midterm dan Finalterm Machine Learning yang mencakup tiga pendekatan utama dalam machine learning, yaitu:
 
 - Regression
 - Classification (Fraud Detection)
@@ -23,6 +23,17 @@ Semua project dibuat menggunakan Python dan dikerjakan menggunakan Jupyter Noteb
 # Repository Structure
 
 ```text
+Finalterm/
+├── Fraud Detection/
+│   ├── FraudDetection.ipynb
+│   └── README.md
+|
+├── Regresi/
+│   ├── savemodel-tuned/
+│   ├── UAS_ML_Regresi.ipynb
+│   ├── requirements.txt
+│   └── README.md
+
 Midterm/
 │
 ├── Clustering/
@@ -65,7 +76,7 @@ Project regresi bertujuan untuk memprediksi nilai numerik menggunakan beberapa a
 
 ### File Utama
 ```text
-Regresi/UTS_ML_Regresi.ipynb
+Finalterm/Regresi/UAS_ML_Regresi.ipynb
 ```
 
 ---
@@ -86,7 +97,7 @@ Project fraud detection bertujuan untuk mendeteksi transaksi fraud menggunakan m
 
 ### File Utama
 ```text
-Fraud Detection/Fraud_Detection.ipynb
+Midterm/Fraud Detection/Fraud_Detection.ipynb
 ```
 
 ---
