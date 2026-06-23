@@ -1,4 +1,4 @@
-# UTS Machine Learning - Regresi
+# Machine Learning - Final Term Regresi
 
 ## Data Diri
 
@@ -14,7 +14,7 @@
 
 Repository ini berisi implementasi end-to-end machine learning pipeline untuk melakukan prediksi tahun rilis lagu menggunakan metode regression berbasis Machine Learning.
 
-Proyek ini dibuat untuk memenuhi tugas UTS Machine Learning Regresi yang berfokus pada prediksi nilai kontinu (continuous value), yaitu release year lagu, berdasarkan audio features numerik yang tersedia pada dataset.
+Proyek ini dibuat untuk project UAS Machine Learning Regresi yang berfokus pada prediksi nilai kontinu (continuous value), yaitu release year lagu, berdasarkan audio features numerik yang tersedia pada dataset.
 
 ---
 
